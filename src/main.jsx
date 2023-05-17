@@ -10,6 +10,7 @@ import Login from "./pages/Login/Login.jsx";
 import Register from "./pages/Register/Register.jsx";
 import Contact from "./pages/ContactUs/Contact.jsx";
 import ServiceDetails from "./pages/ServiceDetails/ServiceDetails.jsx";
+import CheckOut from "./pages/CheckOut/CheckOut.jsx";
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: '/contact',
         element: <Contact></Contact>
+      },
+      {
+        path: '/checkOut',
+        element: <CheckOut></CheckOut>
       },
       {
         path: '/serviceDetails/:id',

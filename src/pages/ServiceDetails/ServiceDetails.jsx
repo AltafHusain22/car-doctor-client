@@ -1,5 +1,5 @@
 import React from "react";
-import { useLoaderData } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 import topimage from "../../../public/assets/images/banner/4.jpg";
 import SingleDetails from "./SingleDetails";
 import { FiArrowRight } from "react-icons/fi";
@@ -37,25 +37,27 @@ const ServiceDetails = () => {
           </button>
 
           <button className="btn btn-wide bg-white text-slate-900 border-0 hover:bg-red-500 mt-5 hover:text-white">
-             Engine Repair
+            Engine Repair
             <FiArrowRight className="text-xl text-slate-900 ml-5 hover:text-white"></FiArrowRight>
           </button>
 
           <button className="btn btn-wide bg-white text-slate-900 border-0 hover:bg-red-500 mt-5 hover:text-white">
-          Automatic Services
+            Automatic Services
             <FiArrowRight className="text-xl text-slate-900 ml-5 hover:text-white"></FiArrowRight>
           </button>
 
           <button className="btn btn-wide bg-white text-slate-900 border-0 hover:bg-red-500 mt-5 hover:text-white">
-          Engine Oil Change
+            Engine Oil Change
             <FiArrowRight className="text-xl text-slate-900 ml-5 hover:text-white"></FiArrowRight>
           </button>
 
           <div className="bg-white m-5 py-10 rounded-xl">
             <h2 className=" text-3xl font-bold mt-8 mb-8">Price : ${price}</h2>
-            <button className="btn btn-primary mx-3 bg-red-500 text-slate-100 border-0">
-              Proceed To Checkout
-            </button>
+            <Link to={'/checkOut'}>
+              <button className="btn btn-primary mx-3 bg-red-500 text-slate-100 border-0">
+                Proceed To Checkout
+              </button>
+            </Link>
           </div>
         </div>
       </div>
