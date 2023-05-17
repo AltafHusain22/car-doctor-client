@@ -32,6 +32,7 @@ const Services = () => {
 		></ServiceCard>)
 	  }
 		</div>
+	   <button className="btn btn-outline btn-error mt-10">More Services</button>
     </div>
   );
 };
