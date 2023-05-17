@@ -17,14 +17,15 @@ const About = () => {
           />
         </div>
         <div className="md:w-full lg:w-1/2 text-start mt-48">
+		      <h3 className="font-bold text-xl text-red-500 mb-5">About Us</h3>
           <h1 className="text-4xl lg:text-6xl md:text-4xl font-bold text-start mb-5 ">We are qualified & of experience in this field</h1>
           <p className="py-6">
 		  There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
           </p>
-          <p className="py-6">
+          <p className="py-3">
 		  the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
           </p>
-          <button className="btn btn-error">Get More Info</button>
+          <button className="btn btn-error text-white font-bold">Get More Info</button>
         </div>
       </div>
     </div>
