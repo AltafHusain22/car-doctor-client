@@ -32,9 +32,9 @@ const Register = () => {
                       fill="currentColor"
                     >
                       <path
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                        clip-rule="evenodd"
+                        clipRule="evenodd"
                       ></path>
                     </svg>
                   </div>
@@ -52,9 +52,9 @@ const Register = () => {
                       fill="currentColor"
                     >
                       <path
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                        clip-rule="evenodd"
+                        clipRule="evenodd"
                       ></path>
                     </svg>
                   </div>
@@ -72,9 +72,9 @@ const Register = () => {
                       fill="currentColor"
                     >
                       <path
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                        clip-rule="evenodd"
+                        clipRule="evenodd"
                       ></path>
                     </svg>
                   </div>
@@ -92,9 +92,9 @@ const Register = () => {
                       fill="currentColor"
                     >
                       <path
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                        clip-rule="evenodd"
+                        clipRule="evenodd"
                       ></path>
                     </svg>
                   </div>
@@ -123,10 +123,10 @@ const Register = () => {
               </a>
             </p>
 
-            <form action="#" method="POST" class="mt-8">
+            <form class="mt-8">
               <div class="space-y-5">
                 <div>
-                  <label for="" class="text-base font-medium text-gray-900">
+                  <label htmlFor="" class="text-base font-medium text-gray-900">
                     {" "}
                     Fast & Last name{" "}
                   </label>
@@ -159,7 +159,7 @@ const Register = () => {
                 </div>
 
                 <div>
-                  <label for="" class="text-base font-medium text-gray-900">
+                  <label htmlFor="" class="text-base font-medium text-gray-900">
                     {" "}
                     Email address{" "}
                   </label>
@@ -192,7 +192,7 @@ const Register = () => {
                 </div>
 
                 <div>
-                  <label for="" class="text-base font-medium text-gray-900">
+                  <label htmlFor="" class="text-base font-medium text-gray-900">
                     {" "}
                     Password{" "}
                   </label>

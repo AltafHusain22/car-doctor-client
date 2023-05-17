@@ -9,6 +9,7 @@ import Home from "./pages/Home/components/Home.jsx";
 import Login from "./pages/Login/Login.jsx";
 import Register from "./pages/Register/Register.jsx";
 import Contact from "./pages/ContactUs/Contact.jsx";
+import ServiceDetails from "./pages/ServiceDetails/ServiceDetails.jsx";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,12 @@ const router = createBrowserRouter([
       {
         path: '/contact',
         element: <Contact></Contact>
+      },
+      {
+        path: '/serviceDetails/:id',
+        element: <ServiceDetails></ServiceDetails>,
+        loader: ({params})=> fetch(`http://localhost:5000/singleService/${params.id}`)
+
       },
   
     ]

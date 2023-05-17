@@ -14,7 +14,7 @@ const ServiceCard = ({ service }) => {
         <h2 className="card-title">{title}</h2>
         <div className="card-actions justify-between items-center mt-5">
            <h3 className="text-start font-bold text-red-600 text-xl"> Price : $ {price}</h3>
-          <Link to={'/'}><FiArrowRight className="text-xl text-red-500"></FiArrowRight></Link>
+          <Link to={`/serviceDetails/${_id}`}><FiArrowRight className="text-xl text-red-500"></FiArrowRight></Link>
         </div>
       </div>
     </div>

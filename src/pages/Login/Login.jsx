@@ -29,9 +29,9 @@ const Login = () => {
                       fill="currentColor"
                     >
                       <path
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                        clip-rule="evenodd"
+                        clipRule="evenodd"
                       ></path>
                     </svg>
                   </div>
@@ -49,9 +49,9 @@ const Login = () => {
                       fill="currentColor"
                     >
                       <path
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                        clip-rule="evenodd"
+                        clipRule="evenodd"
                       ></path>
                     </svg>
                   </div>
@@ -69,9 +69,9 @@ const Login = () => {
                       fill="currentColor"
                     >
                       <path
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                        clip-rule="evenodd"
+                        clipRule="evenodd"
                       ></path>
                     </svg>
                   </div>
@@ -89,9 +89,9 @@ const Login = () => {
                       fill="currentColor"
                     >
                       <path
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                        clip-rule="evenodd"
+                        clipRule="evenodd"
                       ></path>
                     </svg>
                   </div>
@@ -123,7 +123,7 @@ const Login = () => {
             <form action="#" method="POST" class="mt-8">
               <div class="space-y-5">
                 <div>
-                  <label for="" class="text-base font-medium text-gray-900">
+                  <label htmlFor="" class="text-base font-medium text-gray-900">
                     
                     Email address
                   </label>
@@ -157,7 +157,7 @@ const Login = () => {
 
                 <div>
                   <div class="flex items-center justify-between">
-                    <label for="" class="text-base font-medium text-gray-900">
+                    <label htmlFor="" class="text-base font-medium text-gray-900">
                       Password
                     </label>
 
@@ -167,7 +167,7 @@ const Login = () => {
                       class="text-sm font-medium text-blue-600 transition-all duration-200 hover:text-blue-700 focus:text-blue-700 hover:underline"
                     >
                       
-                      Forgot password?
+                      htmlForgot password?
                     </a>
                   </div>
                   <div class="mt-2.5 relative text-gray-400 focus-within:text-gray-600">

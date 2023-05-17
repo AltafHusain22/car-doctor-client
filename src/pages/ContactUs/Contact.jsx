@@ -104,8 +104,8 @@ const Contact = () => {
               <form action="#" method="POST" class="mt-14">
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-4">
                   <div>
-                    <label for="" class="text-base font-medium text-gray-900">
-                      {" "}
+                    <label  class="text-base font-medium text-gray-900">
+                     
                       Your name{" "}
                     </label>
                     <div class="mt-2.5 relative">
@@ -120,9 +120,9 @@ const Contact = () => {
                   </div>
 
                   <div>
-                    <label for="" class="text-base font-medium text-gray-900">
-                      {" "}
-                      Email address{" "}
+                    <label  class="text-base font-medium text-gray-900">
+                      
+                      Email address
                     </label>
                     <div class="mt-2.5 relative">
                       <input
@@ -136,9 +136,9 @@ const Contact = () => {
                   </div>
 
                   <div>
-                    <label for="" class="text-base font-medium text-gray-900">
-                      {" "}
-                      Phone number{" "}
+                    <label class="text-base font-medium text-gray-900">
+                      
+                      Phone number
                     </label>
                     <div class="mt-2.5 relative">
                       <input
@@ -152,9 +152,9 @@ const Contact = () => {
                   </div>
 
                   <div>
-                    <label for="" class="text-base font-medium text-gray-900">
-                      {" "}
-                      Company name{" "}
+                    <label  class="text-base font-medium text-gray-900">
+                      
+                      Company name
                     </label>
                     <div class="mt-2.5 relative">
                       <input
@@ -168,9 +168,9 @@ const Contact = () => {
                   </div>
 
                   <div class="sm:col-span-2">
-                    <label for="" class="text-base font-medium text-gray-900">
-                      {" "}
-                      Message{" "}
+                    <label class="text-base font-medium text-gray-900">
+                     
+                      Message
                     </label>
                     <div class="mt-2.5 relative">
                       <textarea
