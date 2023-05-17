@@ -11,6 +11,8 @@ import Register from "./pages/Register/Register.jsx";
 import Contact from "./pages/ContactUs/Contact.jsx";
 import ServiceDetails from "./pages/ServiceDetails/ServiceDetails.jsx";
 import CheckOut from "./pages/CheckOut/CheckOut.jsx";
+import About from "./pages/About/About.jsx";
+import MyBookings from "./pages/MyBookings/MyBookings.jsx";
 
 const router = createBrowserRouter([
   {
@@ -32,6 +34,14 @@ const router = createBrowserRouter([
       {
         path: '/contact',
         element: <Contact></Contact>
+      },
+      {
+        path: '/about',
+        element: <About></About>
+      },
+      {
+        path: '/myBookings',
+        element: <MyBookings></MyBookings>
       },
       {
         path: '/checkOut',
